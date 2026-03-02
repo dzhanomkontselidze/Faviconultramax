@@ -66,9 +66,6 @@ app.use((req, res) => {
   res.send('bbs rims on my rarrri\n');
 });
 
-app.listen(port, host, () => {
-  console.log(`🚀 Troll Server at http://${host}:${port}`);
-});
 
 app.get('/image', (req, res) => {
   res.sendFile(IconPath);
